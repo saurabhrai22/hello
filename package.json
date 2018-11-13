@@ -3,14 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
-
   },
-  "engines":{
+  "engines": {
     "node": "8.11.1"
   },
   "private": true,
@@ -25,6 +23,7 @@
     "@angular/platform-browser-dynamic": "~7.0.0",
     "@angular/router": "~7.0.0",
     "core-js": "^2.5.4",
+    "kuduscript": "^1.0.17",
     "rxjs": "~6.3.3",
     "zone.js": "~0.8.26"
   },
